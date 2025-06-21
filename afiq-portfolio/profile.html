@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Afiq Portfolio</title>
+  <link rel="stylesheet" href="profile.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Matangi:wght@300..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Matangi:wght@300..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">    
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
+</head>
+    <div class="headerLink">
+        <a href="#about">ABOUT ME</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#education">EDUCATION</a>
+        <a href="#work">WORK</a>
+        <a href="#contact">CONNECT WITH ME</a>
+    </div>    
+<head>
+</head>        
+<body>
+  <section id="">
+  <h1 class="startText">
+    Hi! I'm <span style="color:#BC002D; font-weight:bold;">AFIQ</span> Computer Science Student And Welcome To My</h1>
+  <div class="displayTextWrapper">
+  <!-- Stroke Text Behind -->
+  <h1 class="displayTextLayer1 strokeText">PORTFOLIO</h1>
+
+  <!-- Filled Text on Top -->
+  <h1 class="displayTextLayer1">PORTFOLIO</h1>
+
+  <!-- Centered Image Inside Text -->
+  <img class="afiq" src="afiqblackandwhite.png" alt="Afiq">
+
+  <!-- Location Below -->
+  <p class="location">BASED IN KUALA LUMPUR, MALAYSIA <br>UNIVERSITI TEKNOLOGI MARA,KAMPUS JASIN</p>
+</div>
+</section>
+  
+  <section id="about" >
+    <h2>ABOUT ME</h2>
+    <div class="aboutMeCard">
+        <p style="font-family: 'Matangi', sans-serif; font-weight:normal; text-align:justify;">I am a dedicated Computer Science diploma student with strong theoretical and practical knowledge in software development, database systems, and networking fundamentals. My academic training has equipped me with a solid understanding of object-oriented programming (OOP), algorithm design, data structures, and the Software Development Life Cycle (SDLC).
+
+I have developed hands-on skills using languages and tools such as HTML, CSS, JavaScript, Java, MySQL, and C++, and I am familiar with platforms like Cisco Packet Tracer, Microsoft 365, and basic Linux tools. I also have experience in full-stack development through academic projects, including designing and implementing CRUD-based systems.
+
+In addition to my technical background, I am skilled in video editing and graphic design. I have worked with tools like Adobe Premiere Pro and After Effects to produce cinematic and professional-quality video content, and I use Adobe Photoshop, Illustrator, and Figma to create impactful poster designs, digital visuals, and UI mockups. These creative skills complement my technical abilities, allowing me to produce both functional and visually engaging digital products.
+
+Known for being detail-oriented, a quick learner, and highly adaptable, I strive to write clean, maintainable code and approach problem-solving with logic and efficiency. I am committed to continuous learning and confident in my ability to contribute to real-world IT and creative projects while growing as a versatile technology professional.</p>
+    </div>
+    <button class="forget" onclick="openPopup()">View Resume</button>
+<div id="popupOverlay" class="popup-overlay">
+    <div class="popup" id="popupForget">
+  <div class="displayResume">
+    <canvas id="pdf-canvas"></canvas>
+
+    <!-- Button Container -->
+    <div class="popup-buttons">
+      <button onclick="closePopup()" class="closePopUp">CLOSE</button>
+      <a href="MuhammadAfiqCv.pdf" download class="download-link">
+        <button class="download">Download PDF</button>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+    </div>       
+  </section>
+  <section id="skills">
+    <h2>SKILL</h2>
+    <div class="carousel-wrapper">
+  <button class="arrow left" onclick="scrollCarousel(-1)">&#10094;</button>
+
+  <div class="container" id="carousel">
+    <div class="sub-container sc-programmmer" onclick="openUpProgrammer()">
+        <h1>PROGRAMMING</h1>
+        <i class="fas fa-laptop-code" ></i>
+    <div class="add-container ac-programmmer">
+        <pre>I have strong programming skills in both front-end and back-end development, with proficiency in HTML, CSS, JavaScript, Java, C++, PHP, and MySQL. I understand object-oriented programming, SDLC, and CRUD operations, and have basic knowledge of Python, Ruby, and C. I focus on writing clean, efficient, and maintainable code, and adapt quickly to new technologies and environments.</pre>
+        <br>
+        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+            <h3>Language</h3>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
+                <i class="fab fa-html5" style="font-size: 40px; color: #e34c26;"></i>
+                <i class="fab fa-css3-alt" style="font-size: 40px; color: #264de4;"></i>
+                <i class="fab fa-js" style="font-size: 40px; color: #f7df1e;"></i>
+                <i class="fab fa-php" style="font-size: 40px; color: #8892BF;"></i>
+                <i class="fab fa-java" style="font-size: 40px; color: #007396;"></i>
+            </div>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin-top: 10px;">
+                <i class="fas fa-gem" style="font-size: 40px; color: #9b0023;"></i>
+                <i class="devicon-cplusplus-plain colored" style="font-size: 40px;"></i>
+                <i class="devicon-c-plain colored" style="font-size: 40px;"></i>
+                <i class="devicon-python-plain colored" style="font-size: 40px;"></i>
+                <i class="devicon-mysql-plain colored" style="font-size: 40px;"></i>
+            </div>
+            <h3 style="margin-top: 20px;">Tools</h3>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
+                <i class="devicon-vscode-plain colored" style="font-size: 40px;"></i>
+                <i class="fab fa-github" style="font-size: 40px; color: black;"></i>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="sub-container sc-videoEditing" onclick="openUpVideoEditing()">
+        <h1>VIDEO EDITING</h1>
+        <i class="fas fa-film" ></i>
+        <div class="add-container ac-videoEditing">
+        <pre>Skilled in cinematic video editing using Adobe Premiere Pro and After Effects, with experience in cutting footage, color grading, adding effects, and creating smooth transitions. I focus on visual storytelling and delivering high-quality, engaging edits.</pre>
+        <br>
+        <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-top:60px">
+            <h3>Tools</h3>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
+               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg" alt="After Effects Icon" width="40" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-original.svg" alt="Premiere Icon" width="40">
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="sub-container sc-grapicDesign" onclick="openUpGraphicDesign()">
+        <h1>Grapgic Design</h1>
+        <i class="fas fa-palette"></i>
+        <div class="add-container ac-grapicDesign">
+        <pre>Skilled in poster design with a strong grasp of visual hierarchy, typography, and color theory. Proficient in Adobe Photoshop, Illustrator, and Figma, creating impactful designs for campaigns, events, and promotions that effectively communicate key messages and engage audiences.</pre>
+        <br>
+        <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-top:30px">
+            <h3>Tools</h3>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg" alt="Photoshop Icon" width="40" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg" alt="Premiere Icon" width="40">
+            </div>
+        </div>
+        </div>
+
+    </div>
+    <div class="sub-container sc-Network" onclick="openUpNetwork()">
+        <h1>NETWORK CONFIGURING</h1>
+        <i class="fas fa-network-wired" ></i>
+        <div class="add-container ac-Network">
+        <pre>I have a foundational understanding of network configuration, including setting up and managing basic network components such as IP addressing, subnetting, routing, and switching. I am familiar with tools like Cisco Packet Tracer and basic networking protocols, and I can configure small-scale LAN environments and troubleshoot connectivity issues effectively.</pre>
+        <br>
+        <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-top:30px">
+            <h3>Tools</h3>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
+                
+            <ul>
+                <li>Wireshark</li>
+                <li>Cisco Packet Tracer</li>
+            </ul>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="sub-container sc-pentest" onclick="openUpPentest()">
+        <h1>PENETRATION TESTING</h1>
+        <i class="fas fa-bug" ></i>
+        <div class="add-container ac-pentest">
+        <pre>I have foundational knowledge in penetration testing and identifying system vulnerabilities. I understand how to assess the security posture of networks and applications by simulating real-world attack scenarios. Using basic tools, I can perform tasks like scanning for open ports, detecting outdated services, and identifying misconfigurations or weak authentication. My approach emphasizes ethical testing practices and reporting findings clearly, aiming to help improve system defenses and prevent exploitation.</pre>
+        <br>
+        <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-top:0px">
+            <h3>Tools</h3>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
+                
+            <ul>
+                <li>Wireshark</li>
+                <li>Kali Linux</li>
+                <li>Nessus</li>
+                <li>Hydra</li>
+                <li>SQLmap</li>
+            </ul>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <button class="arrow right" onclick="scrollCarousel(1)">&#10095;</button>
+</div>
+            
+  </section>
+  <section id="education">
+    <h2>Academic</h2>
+    <div class="section">
+        <div class="academy smk" onclick="openUpSmk()">
+            <div class="pic picsmk"></div>
+            <div class="desc descSmk">
+                <h1 style="font-size: 2rem;">SEKOLAH MENENGAH KEBANGSAAN PUCHONG UTAMA (1)</h1>
+                <h1 style="font-family: 'Matangi', sans-serif; font-size: 1.2rem;">HALF SCIENCE STREAM : COMPUTER SCIENCE</h1>
+                <p style="font-family: 'Matangi', sans-serif;">I completed my secondary education at SMK Puchong Utama 1 in the Computer Science stream, where I studied logic gates, programming, SDLC, web design, and databases. I gained hands-on experience with languages like HTML, CSS, JavaScript, Python, and Java, and completed a CRUD-based project with full SDLC documentation.</p>
+                <i style="font-family: 'Matangi', sans-serif; margin-top:30px;">Date : January 2018 - March 2023</i>
+            </div>
+        </div> 
+        <div class="academy uitm" onclick="openUpUitm()">
+            <div class="pic picuitm"></div>
+            <div class="desc decUitm">
+                <h1 style="font-size: 2rem;">UNIVERSITI TEKNOLOGI MARA</h1>
+                <h1 style="font-family: 'Matangi', sans-serif; font-size: 1.2rem;">DIPLOMA OF COMPUTER SCIENCE</h1>
+                <p style="font-family: 'Matangi', sans-serif;">Currently pursuing a Diploma in Computer Science at UiTM, with core focus on programming, data structures, OOP, database systems, web development, and networking. Gained hands-on experience with languages like Java, C++,python, HTML, and MySQL, while applying concepts through practical projects and SDLC-based documentation.</p>
+                <i style="font-family: 'Matangi', sans-serif; margin-top:30px;">Date : September 2023 - Present</i>
+            </div>
+        </div>
+        <div class="academy fcc" onclick="openUpFcc()">
+            <div class="pic picfcc"></div>
+            <div class="desc decFcc">
+                <h1 style="font-size: 2rem;">FREECODECAMP</h1>
+                <h1 style="font-family: 'Matangi', sans-serif; font-size: 1.2rem;">RESPONSIVE WEB DESIGN</h1>
+                <p style="font-family: 'Matangi', sans-serif;">The FreeCodeCamp Responsive Web Design Certification is a 300-hour online program that teaches HTML, CSS, flexbox, grid, and responsive design principles. It includes hands-on projects to help learners build mobile-friendly, accessible websites using modern web standards.</p>
+                <i style="font-family: 'Matangi', sans-serif; margin-top:30px;">Date : Feb 2024</i>
+            </div>
+        </div>
+        <div class="academy mdec" onclick="openUpMdec()">
+            <div class="pic picmdec"></div>
+            <div class="desc decMdec">
+                <h1 style="font-size: 2rem;">MDEC HIGH VALUE GIG DIGITAL FREELANCER BOOTCAMP</h1>
+                <h1 style="font-family: 'Matangi', sans-serif; font-size: 1.2rem;">WEB DEVELOPMENT STREAM</h1>
+                <p style="font-family: 'Matangi', sans-serif;">The MDEC High-Value Gig Bootcamp (Web Development stream) is a 1 week intensive program with practical web development skills and freelance readiness. It focuses on full-stack development, real-world projects, and preparing participants to earn income through global freelance platforms like Upwork and Fiverr.</p>
+                <i style="font-family: 'Matangi', sans-serif; margin-top:30px;">Date : March 2024</i>
+            </div>
+        </div>
+        <div class="academy cisco">
+            <div class="pic piccisco" onclick="openUpCisco()"></div>
+            <div class="desc decCisco">
+                <h1 style="font-size: 2rem;">CISCO ACADEMY </h1>
+                <h1 style="font-family: 'Matangi', sans-serif; font-size: 1.2rem;">NETWORKING AND CYBER SECURITY</h1>
+                <p style="font-family: 'Matangi', sans-serif;">Completed Cisco Networking Academy courses in Cybersecurity and Networking, covering topics such as ethical hacking, cyber defense, and cybersecurity fundamentals. Gained hands-on experience using Cisco Packet Tracer to configure and troubleshoot networks, with a strong foundation in IP addressing, routing, and threat mitigation.</p>
+                <i style="font-family: 'Matangi', sans-serif; margin-top:30px;">Date : March 2025</i>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section id="work">
+    <h2>My Work </h2>
+        <div class="worksec">
+            <div class="work-row">
+            <div class="work-wrapper wwwd">
+            <h4 style="text-align:center; font-size:30px">Web Programming</h4>
+              <div class="work-coursel wcwd" id="workcourwd" style="padding-bottom:35px;">  
+                <div class="slot swd swd1">
+                    <div class="img-work imwd"></div>
+                        <video width="100%" height="100%" controls>
+                            <source src="material\Staff and Admin Login Page - Google Chrome 2025-06-20 14-36-26.mp4" type="video/mp4">
+                        </video>
+                    <details class="work-info">
+                    <summary>More Info</summary>
+                        <p style="line-height: 1.5;  font-family: 'Matangi', sans-serif; text-align: justify;"><span style="font-weight:bold; font-family: 'Matangi', sans-serif;">Final Year Project – Administration Web-2025</span><br> Portal for User Data Management
+Designed and developed a comprehensive administration webpage to manage and manipulate user information and data efficiently. The system includes modules for user management, data editing, secure access control, and real-time updates. Emphasized user experience by implementing a clean, responsive, and user-friendly interface. The project focused on optimizing workflow for administrators, enhancing data handling accuracy, and ensuring ease of use through intuitive design and navigation. </p>
+                    </details>
+                </div>
+                <div class="slot swd swd2">
+                    <div class="img-work imwd">
+                        <video width="100%" height="100%" controls>
+                            <source src="material\Popup Screen Example - Google Chrome 2025-06-20 23-58-25.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <details class="work-info">
+                    <summary>More Info</summary>
+                        <p style="line-height: 1.5;  font-family: 'Matangi', sans-serif; text-align: justify;"><span style="font-weight:bold; font-family: 'Matangi', sans-serif;">Birthday Wishes Project-2024</span><br> This project is a web-based interactive greeting platform designed to wish friends a happy birthday in a unique and engaging way. The website features a live countdown timer leading up to the user's birthday, followed by a popup birthday greeting screen that can be customized with messages, visuals, or animations.</p>
+                    </details>
+                </div>
+            </div>
+           </div>
+            <div class="work-wrapper wwve">
+            <h4 style="text-align:center; font-size:30px;  ">Video Editing</h4>
+              <div class="work-coursel wcve" id="workcourve" >  
+                <div class="slot sve sve1">
+                    <div class="img-work imve">
+                        <video width="100%" height="100%" controls>
+                            <source src="material\Pelantikan Ahli Badan Bantu Sekolah dan Badan Perkhidmatan Sekolah 2022_1_1.mp4" type="video/mp4">
+                        </video>  
+                    </div>
+                        <p style="margin:10px; margin-left:30px;  font-family: 'Matangi', sans-serif; text-align: justify;"><span style="font-weight:bold; font-family: 'Matangi', sans-serif;">Freelance project video for a high school event-2022.</span><br> </p>
+                </div>
+                <div class="slot sve sve2">
+                    <div class="img-work imve">
+                        <video width="100%" height="100%" controls>
+                            <source src="material\Copy of Montaj Majlis Apresiasi Pengawas 2022.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                        <p style="margin:10px; margin-left:30px;  font-family: 'Matangi', sans-serif; text-align: justify;"><span style="font-weight:bold; font-family: 'Matangi', sans-serif;">Freelance Project Video for a prom event-2022.</span><br> </p>
+
+                    <div class="work-des wdve"></div>
+                </div>
+            </div>
+           </div>
+            <div class="work-wrapper wwdg">
+                <h4 style="text-align:center; font-size:30px;">Graphic Design</h4>
+              <div class="work-coursel wcdg" id="workcourdg" style="padding-bottom:60px;">  
+                <div class="slot sdg sdg1" style="width: 200px;">
+                    <div class="img-work imdg">
+                        <img src="material\posterMsu2.png" style="max-width: 100%; max-height: 100%; alt="">
+                    </div>
+                    <p style="margin-top:10; font-family: 'Matangi', sans-serif; text-align:center;"><span style="text-align:center;font-weight:bold; font-family: 'Matangi', sans-serif;">MSU info hunt poster<br>2023</span><br> </p>
+
+                </div>
+                <div class="slot sdg sdg2" style="width: 200px;">
+                    <div class="img-work imdg">
+                        <img src="material\posterMsu.png" style="max-width: 100%; max-height: 100%; alt="">
+                    </div>
+                    <p style="   font-family: 'Matangi', sans-serif; text-align:center;"><span style="text-align:center;font-weight:bold; font-family: 'Matangi', sans-serif;">MSU info hunt poster<br>2023</span><br> </p>
+
+                </div>
+                <div class="slot sdg sdg2" style="width: 200px;">
+                    <div class="img-work imdg" style="margin-bottom: 20px;">
+                        <img src="material\POST9.png" style="max-width: 100%; max-height: 100%; margin-top:15px;" alt="">
+                    </div>
+                    <p style="padding-top:10;    font-family: 'Matangi', sans-serif; text-align:center;"><span style="text-align:center;font-weight:bold; font-family: 'Matangi', sans-serif;">Freelance:food poster<br>2025</span><br> </p>
+                </div>
+            </div>
+           </div>
+            </div> 
+        </div>
+  </section>
+  <section id="contact">
+    <h2>Connect With Me</h2>
+    <div class="contact-section">
+  <h3>Contact Me</h3>
+  
+  <div class="contact-item">
+    <i class="fas fa-phone-alt"></i>
+    <span class="phone-number">+60 12-345 6789</span>
+  </div>
+
+  <div class="contact-item">
+    <i class="fas fa-envelope"></i>
+    <a href="mailto:m.afiq11705@gmail.com" onclick="sendEmail()" class="email">m.afiq11705@gmail.com</a>
+  </div>
+
+  <div class="contact-item">
+    <i class="fab fa-linkedin"></i>
+    <a href="https://www.linkedin.com/in/muhammad-afiq-72229b26a/" class="linkedin" target="_blank">linkedin.com/in/yourname</a>
+  </div>
+</div>
+
+  </section>  
+
+
+  <script src="profile.js"></script>
+  <script>
+  const url = 'MuhammadAfiqCV.pdf'; // Replace with your PDF path
+
+  const pdfjsLib = window['pdfjs-dist/build/pdf'];
+  pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+  const loadingTask = pdfjsLib.getDocument(url);
+  loadingTask.promise.then(pdf => {
+    // Load the first page
+    pdf.getPage(1).then(page => {
+      const scale = 1.5;
+      const viewport = page.getViewport({ scale: scale });
+
+      const canvas = document.getElementById('pdf-canvas');
+      const context = canvas.getContext('2d');
+      canvas.height = viewport.height;
+      canvas.width = viewport.width;
+
+      const renderContext = {
+        canvasContext: context,
+        viewport: viewport
+      };
+
+      page.render(renderContext);
+    });
+  });
+  document.querySelectorAll('.headerLink a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href').substring(1);
+      const target = document.getElementById(targetId);
+
+      if (target) {
+        const offset = 100;
+        const bodyRect = document.body.getBoundingClientRect().top;
+        const elementRect = target.getBoundingClientRect().top;
+        const elementPosition = elementRect - bodyRect;
+        const offsetPosition = elementPosition - offset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+</script>
+
+</body>
+<footer>
+  <div class="footer-content">
+    <p>© 2025 Muhammad Afiq Bin Abd Latif. All rights reserved.</p>
+  </div>
+</footer>
+    
+</html>
